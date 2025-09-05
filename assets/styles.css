@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.semester {
+    margin-bottom: 30px;
+    padding: 15px;
+    background-color: #e9f7fe;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.semester h2 {
+    font-size: 1.5em;
+    color: #007BFF;
+    margin-bottom: 15px;
+}
+
+.course-list {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.course-item {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.course-item .course-name {
+    font-weight: bold;
+    color: #333;
+}
+
+.course-item .course-credits {
+    font-style: italic;
+    color: #888;
+}
+
+.course-item:hover {
+    background-color: #f0f8ff;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.back-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.back-btn:hover {
+    background-color: #0056b3;
+}
